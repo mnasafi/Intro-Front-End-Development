@@ -1,35 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="main.js"></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="main.js"></script>
-</head>
+  <body class="p-4">
+    <div class="container">
+      <!-- 1st Row -->
+      <div class="row">
+        <div class="col">
+          <button class="btn btn-primary">Primary Button</button>
+        </div>
 
-<body class="p-4">
+        <div class="col">
+          <button class="btn btn-secondary">Secondary Button</button>
+        </div>
 
-  <button class="btn btn-primary">
-    Primary button
-  </button>
+        <div class="col">
+          <button class="btn btn-success">Success Button</button>
+        </div>
 
-  <button class="btn btn-secondary">
-    Secondary button
-  </button>
+        <div class="col">
+          <button class="btn btn-danger">Danger Button</button>
+        </div>
+      </div>
+
+      <!-- 2nd Row -->
+      <div class="row">
+        <div class="col">
+          <button class="btn btn-warning">Warning Button</button>
+        </div>
+
+        <div class="col">
+          <button class="btn btn-info">Info Button</button>
+        </div>
+
+        <div class="col">
+          <button class="btn btn-light">Light Button</button>
+        </div>
+
+        <div class="col">
+          <button class="btn btn-dark">Dark Button</button>
+        </div>
+
+        <!-- END 2nd Row -->
+      </div>
+
+      <!-- END container div -->
+    </div>
+
+<hr>
+
+    <!-- Switches -->
+    <div class="form-check form-switch">
+      <input
+        class="form-check-input"
+        type="checkbox"
+        id="flexSwitchCheckDefault"
+      />
+      <label class="form-check-label" for="flexSwitchCheckDefault"
+        >Not Checked</label
+      >
+    </div>
 
   
-  <!-- Switches -->
-  <div class="form-check form-switch">
-    <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" />
-    <label class="form-check-label" for="flexSwitchCheckDefault">Not Checked</label>
-  </div>
-
-  <div class="form-check form-switch">
-    <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
-    <label class="form-check-label" for="flexSwitchCheckChecked">Checked switch checkbox input</label>
-  </div>
-
-
-</body>
+    <div class="form-check form-switch">
+      <input
+        class="form-check-input"
+        type="checkbox"
+        id="flexSwitchCheckChecked"
+        checked
+      />
+      <label class="form-check-label" for="flexSwitchCheckChecked"
+        >Checked switch checkbox input</label
+      >
+    </div>
+ 
+ 
+  </body>
 </html>
