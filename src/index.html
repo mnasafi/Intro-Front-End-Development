@@ -52,7 +52,7 @@
       <!-- END container div -->
     </div>
 
-<hr>
+    <hr />
 
     <!-- Switches -->
     <div class="form-check form-switch">
@@ -66,7 +66,6 @@
       >
     </div>
 
-  
     <div class="form-check form-switch">
       <input
         class="form-check-input"
@@ -78,7 +77,38 @@
         >Checked switch checkbox input</label
       >
     </div>
- 
- 
+
+    <hr />
+
+    <!-- Floating Labels in input txt box -->
+
+    <!-- <label for="inputAddress">Address123</label> -->
+
+    <div class="form-floating">
+      <!-- label does not float if placed here on top of <input> 
+      <label for="addressInput">Address Here</label>
+      -->
+
+      <input
+        type="text"
+        class="form-control"
+        id="addressInput"
+        placeholder="Address"
+      />
+      <!-- To float label, place under <input tag> -->
+      <label for="addressInput">Address</label>
+    </div>
+
+    <div class="form-group">
+      <label for="inputAddress2">Address 2</label>
+      <input
+        type="text"
+        class="form-control"
+        id="inputAddress2"
+        placeholder="Apartment, studio, or floor"
+      />
+    </div>
+
+    <!-- END -->
   </body>
 </html>
